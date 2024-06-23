@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en"> 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Challenge</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <!-- Image by <a href="https://pixabay.com/users/anirudhlv-5471845/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3523675">anirudhlv</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3523675">Pixabay</a> -->
+     <!-- Image by <a href="https://pixabay.com/users/anirudhlv-5471845/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3523675">anirudhlv</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3523675">Pixabay</a> -->
+     
+</head>
+<body>
+    <!-- THEME -->
+    <header data-bs-theme="dark">
+
+        <!-- BOOTSTRAPS LINK -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+    <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg bg-black">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="amdlogo.svg"><img src="amdlogo.jpg" class="d-block" width="90"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Products
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="ryzen3.html"
+                  >AMD Ryzen 3 series</a>
+                  <a class="dropdown-item" href="ryzen5.html">AMD Ryzen 5 series</a>
+                  <a class="dropdown-item" href="ryzen7.html">AMD Ryzen 7 series</a>
+                  <a class="dropdown-item" href="#">AMD Ryzen 9 series</a>
+                  <a class="dropdown-item" href="ryzenthreadripper.html">AMD Ryzen Threadripper series</a>
+                </div>
+              </li>
+
+               <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link" href="#">Join Us</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-default" type="submit" style="background-color: #708090;" ><span class="glyphicon 
+                glyphicon-search"></span>Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      </header>
+
+      <!-- CAROUSEL -->
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner text-bg-dark">
+          <div class="carousel-item active" data-bs-interval="6000">
+            <img src="carousel-index/boxamd (2).jpg" class="d-block w-100" alt="AMD Ryzen 3">
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="lead"><b>Performance for the Real World</b></h2>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="8000">
+            <img src="carousel-index/amd53600 (2).jpg" class="d-block w-100" alt="AMD Ryzen 5 3600">
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="lead"><b>Smooth Gaming and Advanced Multi-Processing Performance</b></h2>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="10000">
+            <img src="carousel-index/amdryzen (2).jpg" class="d-block w-100" alt="AMD Ryzen 7">
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="lead"><b>Elite Performance for Gamers and Creators</b></h2>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="8000">
+            <img src="carousel-index/AMDryzen-9-7950x.png" class="d-block w-100" alt="AMD Ryzen 9">
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="lead"><b>Ultimate Performance for Gaming and Content Creation</b></h2>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="8000">
+            <img src="carousel-index/AMDThreadripper.png" class="d-block w-100" alt="AMD Ryzen Threadripper">
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="lead"><b>Unmatched Performance. No Compromises.</b></h2>
+            </div>
+          </div>
+        </div>
+        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="false"></span>
+          <span class="visually-hidden">Next</span>
+        </button> -->
+      </div>
+
+<!-- CARD -->
+    <div class="album py-5 text-bg-dark">
+    <div class="container-fluid">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 text-bg-dark p-3">
+        <div class="col">
+          <div class="card h-100">
+            <img src="cardimage/manymount@4x.png" class="card-img-top d-block w-100 " alt="...">
+            <div class="card-body">
+              <h5 class="card-title">AMD Mantap</h5>
+              <p class="card-text">The AMD Mantap SDK is our new, easy to integrate solution, for developers looking to include AMD FidelityFX features into their games without any of the hassle of complicated porting procedures. AMD FidelityFX helps deliver ultimate visual quality with minimal performance overhead, freeing up your graphics card to power the incredible gaming experiences you demand.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="cardimage/curve@4x.png" class="card-img-top d-block w-100 " alt="...">
+            <div class="card-body">
+              <h5 class="card-title">AMD FreeSync</h5>
+              <p class="card-text">AMD FreeSync™ technology¹ puts an end to choppy gameplay and broken frames with fluid, artifact-free visuals at virtually any framerate. Behold the next breakthrough in PC and console gaming experiences.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="cardimage/1mount@4x.png" class="card-img-top d-block w-100" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">AMD Fidelity</h5>
+              <p class="card-text">The AMD FidelityFX™ SDK is our new, easy to integrate solution, for developers looking to include AMD FidelityFX features into their games without any of the hassle of complicated porting procedures. AMD FidelityFX helps deliver ultimate visual quality with minimal performance overhead, freeing up your graphics card to power the incredible gaming experiences you demand.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="cardimage/spiral@4x.png" class="card-img-top d-block w-75" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">AMD Smart Technology¹</h5>
+              <p class="card-text">AMD smart technologies enhance system performance and efficiency by quickly and dynamically directing power where it’s needed and leveraging the synergies of AMD Ryzen™ CPUs and AMD Radeon™ GPUs to max out your game performance, reduce latency in your favorite games and play longer unplugged.</p>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>  
+    </div>
+  </div>
+
+    <!-- FOOTER -->
+     <footer class="container">
+      <!-- <p class="float-end"><a href="#">UP!</a></p> -->
+      <p>&copy; 2024 Raihan Wahyu Pranoto &middot;</p>
+     </footer>
+    </body>
+</html>

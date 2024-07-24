@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #343a40;
+}
+header {
+    margin-bottom: 20px;
+}
+.carousel-inner img {
+    filter: brightness(75%);
+}
+.carousel-caption {
+    /* background: rgba(0, 0, 0, 0.5); */
+    padding: 20px;
+    border-radius: 10px;
+}
+.lead {
+    font-size: 1.2rem;
+}
+.navbar-brand img {
+    transition: transform 0.3s;
+}
+.navbar-brand img:hover {
+    transform: scale(1.1);
+}
+.btn-custom {
+    background-color: #708090;
+    color: white;
+}
+.btn-custom:hover {
+    background-color: #5a6c7a;
+}
+footer {
+    padding: 10px 0 1px;
+    text-align: center;
+    background-color: black;
+    color: #f8f9fa
+}

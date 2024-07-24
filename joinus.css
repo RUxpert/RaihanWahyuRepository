@@ -1,0 +1,46 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #343a40;
+}
+.navbar {
+    margin-bottom: 30px;
+}
+.navbar-brand img {
+    width: 90px;
+    transition: transform 0.3s;
+}
+.navbar-brand img:hover {
+    transform: scale(1.1);
+}
+.navbar-nav .nav-link {
+    color: #f8f9fa !important;
+}
+.btn-custom {
+    background-color: #708090;
+    color: white;
+}
+.btn-custom:hover {
+    background-color: #5a6c7a;
+}
+.main-content {
+    padding: 60px 0;
+    margin-bottom: 15px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+}
+.main-content h1 {
+    margin-bottom: 30px;
+}
+.main-content p, .main-content form, .main-content li {
+    font-size: 14px;
+    line-height: 1.7;
+}
+.main-content form .form-group {
+    margin-bottom: 20px;
+}
+footer {
+    padding: 10px 0 1px;
+    text-align: center;
+    background-color: black;
+    color: #f8f9fa;
+}

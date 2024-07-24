@@ -12,9 +12,6 @@ body {
 .navbar-brand img:hover {
     transform: scale(1.1);
 }
-.navbar-nav .nav-link {
-    color: #f8f9fa !important;
-}
 .btn-custom {
     background-color: #708090;
     color: white;
@@ -23,13 +20,14 @@ body {
     background-color: #5a6c7a;
 }
 .main-content {
-    padding: 60px 0;
+    padding-left: 60px 0;
     margin-bottom: 15px;
-    background-color: #f8f9fa;
+    background-color: #1e1e1e;
     border-radius: 4px;
 }
 .main-content h1 {
     margin-bottom: 30px;
+    color: #ff7f50;
 }
 .main-content img {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -39,6 +37,10 @@ body {
 .main-content p, .main-content ul {
     font-size: 14px;
     line-height: 1.7;
+    color: #f8f9fa;
+}
+.main-content h2{
+    color: #f8f9fa;
 }
 .main-content ul {
     padding-left: 20px;

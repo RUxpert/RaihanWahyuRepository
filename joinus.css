@@ -12,31 +12,39 @@ body {
 .navbar-brand img:hover {
     transform: scale(1.1);
 }
-.navbar-nav .nav-link {
-    color: #f8f9fa !important;
-}
-.btn-custom {
-    background-color: #708090;
-    color: white;
-}
-.btn-custom:hover {
-    background-color: #5a6c7a;
-}
 .main-content {
     padding: 60px 0;
     margin-bottom: 15px;
-    background-color: #f8f9fa;
+    background-color: #1e1e1e;
     border-radius: 4px;
 }
 .main-content h1 {
     margin-bottom: 30px;
+    color: #ff7f50;
+}
+.main-content h2{
+    color: #f8f9fa;
 }
 .main-content p, .main-content form, .main-content li {
     font-size: 14px;
     line-height: 1.7;
+    color: #f8f9fa;
 }
-.main-content form .form-group {
+.main-content form .form-group{
     margin-bottom: 20px;
+    margin-left: 5px;
+    width: 95%;
+}
+.btn-primary {
+    margin-left: 5px;
+    background-color: #ff7f50;
+    color: #1e1e1e;
+    border-color: #1e1e1e;
+}
+.btn-primary:hover {
+    background-color: #1e1e1e;
+    color: #ff7f50;
+    border-color: #ff7f50;
 }
 footer {
     padding: 10px 0 1px;

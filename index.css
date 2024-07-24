@@ -12,63 +12,95 @@ header {
     filter: brightness(50%);
 }
 .carousel-caption {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0);
     padding: 20px;
-    border-radius: 4px;
+    margin-bottom: 15px;
 }
 .card{
-    background-color: #f8f9fa;
+    background-color: #1e1e1e;
+    color: white;
+    border: 1px solid #333;
 }
+.card h5 {
+    border-color: #ff7f50;
+    color: #ff7f50;
+}
+
 .col img {
-    background-color: #f8f9fa;
     transition: transform 0.5s;
 }
 .col img:hover {
-    background-color: #f8f9fa17;
-    transform: scale(1.1);
+    background-color: #1e1e1e;
+    transform: scale(1.05);
 }
 .lead {
     font-size: 1.2em;
 }
 .navbar-brand img {
-    transition: transform 0.3s;
+    transition: transform 0.3s ease;
 }
 .navbar-brand img:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
+    border-radius: 0;
 }
-.btn-custom {
-    background-color: #708090;
-    color: white;
-}
-.btn-custom:hover {
-    background-color: #5a6c7a;
-}
+
 .container{
     padding-bottom: 25px;
     padding-top: 5px;
     border-radius: 4px;
+    background-color: #1e1e1e;
 }
-.table-responsive{
-    border-radius: 8px;
+
+/* Table  */
+.table-container{
+    overflow: hidden;
 }
-.table{
-    margin-bottom: 0;
+.table {
+    border-collapse: separate;
+    border-spacing: 0 15px;
+    transition: transform 0.3s ease;
 }
-td, tr, th{
-    /* position: fixed; */
-    border: 1px solid black;
+
+.table th, .table td {
+    vertical-align: middle;
+    padding: 1rem;
 }
-.tdhead{
-    transition: transform 1s;
-    /* border: 1px solid black; */
+
+.table th {
+    background-color: #ff7f50;
+    color: #1e1e1e;
+    border-top: none;
+    border-bottom: none;
+    text-align: center;
 }
-.tdhead:hover{
-    display: flex;
-    justify-content: center;
-    padding-left: 2vw;
-    border-radius: 4px;
-    transform: scale(1.1);
+
+.table td {
+    background-color: #2e2e2e;
+    color: #fff;
+    border-top: none;
+    border-bottom: none;
+    text-align: center;
+    transition: transform 0.3s ease;
 }
+
+.table tbody tr:hover {
+    background-color: #444;
+    transform: scale(1.05);
+}
+
+.tdhead {
+    font-weight: bold;
+}
+
+.table-responsive {
+    margin-top: 2rem;
+}
+
+.container h1 {
+    color: #ff7f50;
+    margin-bottom: 2rem;
+}
+
 footer {
     padding: 10px 0 1px;
     text-align: center;

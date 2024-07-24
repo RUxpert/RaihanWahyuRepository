@@ -3,13 +3,12 @@ body {
     background-color: #343a40;
 }
 header {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 .carousel-inner img {
     filter: brightness(75%);
 }
 .carousel-caption {
-    /* background: rgba(0, 0, 0, 0.5); */
     padding: 20px;
     border-radius: 10px;
 }
@@ -20,7 +19,21 @@ header {
     transition: transform 0.3s;
 }
 .navbar-brand img:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
+}
+.card{
+    background-color: #1e1e1e;
+    transition: transform 1s ease-in-out;
+}
+.card-title{
+    color: #ff7f50;
+    font-size: 2rem;
+}
+.card-text{
+    color: #fff;
+}
+.card:hover{
+    transform: scale(1.05);
 }
 .btn-custom {
     background-color: #708090;

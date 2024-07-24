@@ -3,15 +3,11 @@ body {
     background-color: #343a40;
 }
 header {
-    margin-bottom: 20px;
-}
-.carousel-indicators {
-    
+    margin-bottom: 0px;
 }
 .carousel-caption h2{
-    font-size: 1.5rem;
+    font-size: 1.5em;
 }
-
 .carousel-inner img {
     filter: brightness(50%);
 }
@@ -20,11 +16,19 @@ header {
     padding: 20px;
     border-radius: 4px;
 }
+.card{
+    background-color: #f8f9fa;
+}
 .col img {
-    background-color: #343a40;
+    background-color: #f8f9fa;
+    transition: transform 0.5s;
+}
+.col img:hover {
+    background-color: #f8f9fa17;
+    transform: scale(1.1);
 }
 .lead {
-    font-size: 1.2rem;
+    font-size: 1.2em;
 }
 .navbar-brand img {
     transition: transform 0.3s;
@@ -38,6 +42,32 @@ header {
 }
 .btn-custom:hover {
     background-color: #5a6c7a;
+}
+.container{
+    padding-bottom: 25px;
+    padding-top: 5px;
+    border-radius: 4px;
+}
+.table-responsive{
+    border-radius: 8px;
+}
+.table{
+    margin-bottom: 0;
+}
+td, tr, th{
+    /* position: fixed; */
+    border: 1px solid black;
+}
+.tdhead{
+    transition: transform 1s;
+    /* border: 1px solid black; */
+}
+.tdhead:hover{
+    display: flex;
+    justify-content: center;
+    padding-left: 2vw;
+    border-radius: 4px;
+    transform: scale(1.1);
 }
 footer {
     padding: 10px 0 1px;
